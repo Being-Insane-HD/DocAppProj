@@ -7,7 +7,10 @@ import { AppComponent } from './app.component';
 import { DabLoginComponent } from './dab-login/dab-login.component';
 import { DabSignupComponent } from './dab-signup/dab-signup.component';
 import { DabBookingComponent } from './dab-booking/dab-booking.component';
-import { DabAdditionComponent } from './dab-addition/dab-addition.component';
+import { AppointmentListComponent } from './dab-appoint/appointment-list/appointment-list.component';
+import { AppointmentCreateComponent } from './dab-appoint/appointment-create/appointment-create.component';
+import { AppointmentUpdateComponent } from './dab-appoint/appointment-update/appointment-update.component';
+
 
 @NgModule({
   declarations: [
@@ -15,7 +18,9 @@ import { DabAdditionComponent } from './dab-addition/dab-addition.component';
     DabLoginComponent,
     DabSignupComponent,
     DabBookingComponent,
-    DabAdditionComponent,
+    AppointmentListComponent,
+    AppointmentCreateComponent,
+    AppointmentUpdateComponent,
   ],
   imports: [
     BrowserModule,
